@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mi App con TypeScript + Webpack</title>
+  <style>
+    #contenedor { width: 300px; height: 20px; border: 1px solid #333; }
+    #progreso { height: 100%; width: 0; background: #4caf50; }
+  </style>
+</head>
+<body>
+  <h2>Barra de progreso</h2>
+  <div id="contenedor"><div id="progreso"></div></div>
+  <input type="range" id="rango" min="0" max="100" value="0">
+
+    <!-- Bundle generado -->
+  <script src="bundle.js"></script>
+</body>
+</html>
