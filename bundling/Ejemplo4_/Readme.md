@@ -23,11 +23,10 @@ npm install --save-dev webpack-dev-server@4
 npm install --save-dev @webpack-cli/generators
 ```
 
-webpack.config.js
-
-```bash
-echo "" > webpack.config.js
 ```
+echo "" >webpack.config.js
+```
+
 ```  
 mode: "production",
 devtool: false,
@@ -76,7 +75,7 @@ package.json
 }
 ```
 
-
+```
 npm run build
-
 npm run dev
+```
