@@ -1,0 +1,1 @@
+(()=>{"use strict";class e{constructor(){console.log("Hola desde Prueba")}saludar(){return"Hola"}}const t=document.getElementById("progreso"),o=document.getElementById("rango");o.addEventListener("input",()=>{t.style.width=`${o.value}%`;const n=new e;console.log(n.saludar())})})();

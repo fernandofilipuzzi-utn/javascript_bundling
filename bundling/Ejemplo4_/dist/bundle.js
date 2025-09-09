@@ -1,1 +1,0 @@
-(()=>{"use strict";(()=>{const e=document.getElementById("progreso"),t=document.getElementById("rango");t.addEventListener("input",()=>{e.style.width=`${t.value}%`})})()})();

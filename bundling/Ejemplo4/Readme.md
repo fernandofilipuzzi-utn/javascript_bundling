@@ -10,6 +10,7 @@ npm install --save-dev webpack webpack-cli
 ```bash
 npm install --save-dev typescript ts-loader
 ```
+npm i --save-dev @types/node
 
 ```bash
 npx tsc --init
@@ -74,6 +75,14 @@ package.json
      "dev": "webpack serve --open"
 }
 ```
+
+```
+mkdir dist
+echo ""> dist/index.html
+mkdir src
+echo "">index.ts
+```
+
 
 ```
 npm run build
