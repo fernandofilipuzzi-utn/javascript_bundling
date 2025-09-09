@@ -10,7 +10,7 @@ npm install --save-dev webpack webpack-cli
 ```bash
 npm install --save-dev typescript ts-loader
 ```
-npm i --save-dev @types/node
+
 
 ```bash
 npx tsc --init
@@ -20,9 +20,13 @@ npx tsc --init
 npm install --save-dev webpack-dev-server@4
 ```
 
+
+
 ```bash
 npm install --save-dev @webpack-cli/generators
 ```
+
+npm i --save-dev @types/node
 
 ```
 echo "" >webpack.config.js
