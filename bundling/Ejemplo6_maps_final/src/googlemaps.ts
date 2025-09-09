@@ -1,12 +1,11 @@
 import { GoogleMapBundle } from "./GoogleMapBundle";
 
+// Exponemos todo lo necesario
 export * from "./GoogleMapBundle";
 export * from "./GoogleMapManager";
 export * from "./GoogleMapsLoader";
 export * from "./MapConfigurations";
 export * from "./types";
-export { GoogleMapBundle } from './GoogleMapBundle';
-export { GoogleMapManager } from './GoogleMapManager';
-export { MapConfigurations } from './MapConfigurations';
 
+// La clase que queremos exponer como constructor global
 export default GoogleMapBundle;

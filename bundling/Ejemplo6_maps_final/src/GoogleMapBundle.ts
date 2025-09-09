@@ -5,6 +5,8 @@ import { MapConfigurations } from "./MapConfigurations";
 export class GoogleMapBundle {
   private managers: Map<string, GoogleMapManager> = new Map();
 
+  constructor() {}
+
   public async createMap(
     elementId: string,
     apiKey: string,

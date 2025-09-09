@@ -21,6 +21,12 @@ export default {
   output: {
     filename: "bundle.js",
     path: path.resolve(__dirname, "dist"),
+    library: {
+      type: 'window',
+      name: 'GoogleMapBundle',
+      export: 'default'
+    },
+    globalObject: 'window'
   },
   mode: "production",
   devtool: false,
