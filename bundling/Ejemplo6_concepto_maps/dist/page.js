@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', async () =>
 {
     const element = document.getElementById('maps');
 
-    const apiKey = 'API_KEY'; 
+    const apiKey = 'KEY_API'; 
 
     try 
     {
