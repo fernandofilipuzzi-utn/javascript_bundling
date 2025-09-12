@@ -1,7 +1,6 @@
 {
   "name": "ejemplo6_concepto_maps",
   "version": "1.0.0",
-  "description": "",
   "main": "googlemaps.js",
   "type": "module",
   "scripts": {
@@ -21,5 +20,6 @@
     "webpack": "^5.101.3",
     "webpack-cli": "^6.0.1",
     "webpack-dev-server": "^4.15.2"
-  }
+  },
+  "description": ""
 }
